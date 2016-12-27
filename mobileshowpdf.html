@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浦银安盛基金</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <meta content="email=no" name="format-detection" />
+    <link rel="stylesheet" href="http://www.py-axa.com/pyweb/mobile/css/main.css">
+    <style type="text/css">
+        body , html , .wrapper{ width:100%; height:100%;}
+    </style>
+
+</head>
+<body>
+   <div class="wrapper">
+       <div class="tophead">
+           <a href="javascript:;" onclick="history.go(-1)" class="back-ico"></a>
+           <div class="head" id="ggxq" style="display: none">
+		   <span>公告详情</span>
+		   </div>
+           <div class="head" id="wdgz" style="display: none">
+		   <span>公告详情</span>
+		   </div>		   
+       </div>
+       <div class="articalpage" id="message">
+           <div class="articalhead">
+               <title  id="messagetitle">浦银安盛医疗健康灵活配置混合型证券投资基金-2015年第3季度报告</title>
+               <time id="messagedate" class="pubtime">2015-10-21</time>           
+            </div>
+            <div class="artical" id="messagetext">
+                <h3>1.重要提示</h3>
+                <p>基金管理人的董事会及董事保证本报告所载资料不存在虚假记载、误导性陈述或重大遗漏，并对其内容的真实性、准确性和完整性承担个别及连带责任。基金托管人中信银行股份有限公司根据本基金合同规定，于2015年10月23日符合了本报告中的财务指标、净值表现和投资组合报告等内容，保证复核内容不存在虚假记载、误导性陈述或者重大遗漏。</p>
+                <h3>1.重要提示</h3>
+                <p>基金管理人的董事会及董事保证本报告所载资料不存在虚假记载、误导性陈述或重大遗漏，并对其内容的真实性、准确性和完整性承担个别及连带责任。基金托管人中信银行股份有限公司根据本基金合同规定，于2015年10月23日符合了本报告中的财务指标、净值表现和投资组合报告等内容，保证复核内容不存在虚假记载、误导性陈述或者重大遗漏。</p>
+                <h1>浦银安盛基金管理有限公司</h1>
+                <label>2015年10月27日</label>
+            </div>
+       </div>
+       
+   </div>
+</body>
+	<script type="text/javascript">
+	var url=window.location.href; 
+	var bool = url.indexOf("mf=APP");
+	var link = document.createElement("link");
+	link.rel = "stylesheet";
+	link.type = "text/css";
+    if(bool>0) { 
+		link.href = "http://211.157.16.110/pyweb/mobile/css/main2.css";
+		document.getElementsByTagName("head")[0].appendChild(link);
+		var wdgz=document.getElementById("wdgz");
+		 wdgz.style.display="block";
+    } else {
+		link.href = "http://www.py-axa.com/pyweb/mobile/css/main.css";
+		document.getElementsByTagName("head")[0].appendChild(link);
+		var ggxq=document.getElementById("ggxq");
+		 ggxq.style.display="block";
+    } 
+</script>
+</html>

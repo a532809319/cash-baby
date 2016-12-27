@@ -1,0 +1,45 @@
+$header-color:#006cb7;
+$header-height:88 / 40 * 1rem;
+$px:40;
+$yellow-red:#ff6633;
+/*
+$rem:40;
+@mixin  ram($px){
+ $px / 40 *1rem;
+}*/
+/*@mixin rem($re){
+@return $re / 40 *1rem;
+}*/
+@mixin rlh($re){
+ line-height : $re / 40 *1rem;
+}
+@mixin rw($re){
+ width : $re / 40 *1rem;
+}
+@mixin rh($re){
+ height : $re / 40 *1rem;
+}
+@mixin rfs($re){
+ font-size : $re / 40 *1rem;
+}
+@mixin rml($re){
+ margin-left : $re / 40 *1rem;
+}
+@mixin rmr($re){
+ margin-right : $re / 40 *1rem;
+}
+@mixin rmt($re){
+ margin-top : $re / 40 *1rem;
+}
+@mixin rmb($re){
+ margin-bottom : $re / 40 *1rem;
+}
+@mixin rpt($re){
+ top : $re / 40 *1rem;
+}
+@mixin rpl($re){
+ left : $re / 40 *1rem;
+}
+@mixin rpb($re){
+ bottom: $re / 40 *1rem;
+}

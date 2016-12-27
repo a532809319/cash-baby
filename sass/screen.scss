@@ -1,0 +1,66 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import "compass/reset";
+@import "compass";
+@import "variable";
+@import "compass/css3/transform";
+@import "compass/css3";
+@import "compass/utilities/color/contrast";
+@import "compass/css3/user-interface";
+
+/********************************** ºÊ»› **********************************/
+.pf {
+  position: fixed;
+}
+.pr {
+  position: relative;
+}
+.pa {
+  position: absolute;
+}
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+.clearfix {
+  clear: both;
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  zoom: 1;
+}
+          .head{
+            background:  #0071bc;
+                width: 100%; /* 0071bc*//*28a9e1*/
+            @include background-image(radial-gradient(45px  14px, #28a9e1   10px,#0071bc 200px));
+           @include rh(128);
+
+     position: relative;
+               .top-a-btn{
+                 position: absolute;
+                 @include rpb(20);
+                 @include rpl(20);
+                 @include rw(17);
+                 @include rh(28);
+                 background: url("../images/left-btn-a.png") no-repeat 0 0;
+                  @include background-size(contain);
+                 }
+                .my-care{
+                  @include rfs(36);
+                  @include rlh(40);
+                  @include rh(40);
+                 width: 100%;
+                  text-align: center;
+                  position: absolute;
+                  @include rpb(20);
+                  left: 0;
+                  color: white;   
+
+                }
+          }
+

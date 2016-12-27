@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/*
+$rem:40;
+@mixin  ram($px){
+ $px / 40 *1rem;
+}*/
+/*@mixin rem($re){
+@return $re / 40 *1rem;
+}*/
+/********************************** 兼容 **********************************/
+/* line 14, ../sass/screen.scss */
+.pf {
+  position: fixed;
+}
+
+/* line 17, ../sass/screen.scss */
+.pr {
+  position: relative;
+}
+
+/* line 20, ../sass/screen.scss */
+.pa {
+  position: absolute;
+}
+
+/* line 23, ../sass/screen.scss */
+.fr {
+  float: right;
+}
+
+/* line 26, ../sass/screen.scss */
+.fl {
+  float: left;
+}
+
+/* line 29, ../sass/screen.scss */
+.clearfix {
+  clear: both;
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  zoom: 1;
+}
+
+/* line 37, ../sass/screen.scss */
+.head {
+  background: #0071bc;
+  width: 100%;
+  /* 0071bc*/
+  /*28a9e1*/
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjQ1cHgiIGN5PSIxNHB4IiByPSIyMDAlIj48c3RvcCBvZmZzZXQ9IjUlIiBzdG9wLWNvbG9yPSIjMjhhOWUxIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDA3MWJjIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background-size: 100%;
+  background-image: -moz-radial-gradient(45px 14px, #28a9e1 10px, #0071bc 200px);
+  background-image: -webkit-radial-gradient(45px 14px, #28a9e1 10px, #0071bc 200px);
+  background-image: radial-gradient(45px 14px, #28a9e1 10px, #0071bc 200px);
+  height: 3.2rem;
+  position: relative;
+}
+/* line 44, ../sass/screen.scss */
+.head .top-a-btn {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0.5rem;
+  width: 0.425rem;
+  height: 0.7rem;
+  background: url("../images/left-btn-a.png") no-repeat 0 0;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+/* line 53, ../sass/screen.scss */
+.head .my-care {
+  font-size: 0.9rem;
+  line-height: 1rem;
+  height: 1rem;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0;
+  color: white;
+}

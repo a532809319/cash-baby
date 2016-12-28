@@ -26,13 +26,10 @@
 .fl {
   float: left;
 }
-.clearfix {
-  clear: both;
-  content: '';
+.clearfix:after {
+  content: "";
   display: block;
-  width: 0;
-  height: 0;
-  zoom: 1;
+  clear: both;
 }
 body{
   font-family: "微软雅黑";
@@ -163,4 +160,42 @@ body{
 
 
                 }  //f1背景结束 内容盒子
+
+
+    /*   基金公告    */ /*   基金公告    */ /*   基金公告    */
+.pdf-title{
+          width: 100%;
+       @include rh(146);
+     background: #fcfbf9;
+   @include display-flex;
+   @include justify-content(center);
+   @include align-items(center);
+      .center-box1{
+        @include rw(690);
+        @include rh(76);
+
+
+        .left{
+          @include rw(522);
+          @include rh(76);
+          @include rfs(20);
+         .radios-green{
+           display: inline-block;
+           @include rw(36);
+           @include rh(36);
+           background: #2d3091;
+           @include border-radius(50%);
+           color: white;
+
+         }
+              }
+              .right{
+                @include rw(155);
+                @include rh(76);
+              }
+      }
+
+}
+
+    /*   基金公告    */ /*   基金公告    */ /*   基金公告    */
 

@@ -103,21 +103,18 @@ $rem:40;
 }
 
 /* line 29, ../sass/screen.scss */
-.clearfix {
-  clear: both;
-  content: '';
+.clearfix:after {
+  content: "";
   display: block;
-  width: 0;
-  height: 0;
-  zoom: 1;
+  clear: both;
 }
 
-/* line 37, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 body {
   font-family: "微软雅黑";
 }
 
-/* line 41, ../sass/screen.scss */
+/* line 38, ../sass/screen.scss */
 .head {
   background: #0071bc;
   width: 100%;
@@ -131,7 +128,7 @@ body {
   height: 3.2rem;
   position: relative;
 }
-/* line 48, ../sass/screen.scss */
+/* line 45, ../sass/screen.scss */
 .head .top-a-btn {
   position: absolute;
   bottom: 0.5rem;
@@ -145,7 +142,7 @@ body {
   -webkit-background-size: contain;
   background-size: contain;
 }
-/* line 58, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 .head .my-care {
   font-size: 0.9rem;
   line-height: 1rem;
@@ -158,13 +155,13 @@ body {
   color: white;
 }
 
-/* line 71, ../sass/screen.scss */
+/* line 68, ../sass/screen.scss */
 .content-bg {
   background: #f1f1f1;
   width: 100%;
   height: 30rem;
 }
-/* line 76, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .content-bg .money-found {
   font-size: 0.8rem;
   color: #333333;
@@ -174,7 +171,7 @@ body {
   text-indent: 0.75rem;
   font-weight: bold;
 }
-/* line 87, ../sass/screen.scss */
+/* line 84, ../sass/screen.scss */
 .content-bg .money-found-head {
   width: 100%;
   border-bottom: 6px solid #e8e8e8;
@@ -186,14 +183,14 @@ body {
   display: -webkit-flex;
   display: flex;
 }
-/* line 97, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 .content-bg .money-found-head .name {
   -webkit-flex: 1;
   flex: 1;
   text-indent: 0.7rem;
   color: #333333;
 }
-/* line 105, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 .content-bg .money-found-content1 {
   width: 100%;
   background: white;
@@ -202,7 +199,7 @@ body {
   -webkit-justify-content: center;
   justify-content: center;
 }
-/* line 111, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 .content-bg .money-found-content1 .position-center {
   color: #333333;
   width: 17.25rem;
@@ -210,7 +207,7 @@ body {
   display: -webkit-flex;
   display: flex;
 }
-/* line 116, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 .content-bg .money-found-content1 .position-center .flex1 {
   color: #333333;
   /* text-indent: 0.7rem;*/
@@ -218,39 +215,86 @@ body {
   flex: 1;
   height: 2.65rem;
 }
-/* line 120, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 .content-bg .money-found-content1 .position-center .flex1 .name-title {
   font-size: 0.8rem;
   line-height: 1.15rem;
   margin-top: 0.375rem;
 }
-/* line 128, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
 .content-bg .money-found-content1 .position-center .flex1 .name-title-number {
   color: #666;
   line-height: 1.15rem;
   font-size: 0.9rem;
   margin-top: 0.375rem;
 }
-/* line 134, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 .content-bg .money-found-content1 .position-center .flex1 .name-number {
   line-height: 0.8rem;
   font-size: 0.6rem;
   bottom: 0.5rem;
   color: #a5a5a5;
 }
-/* line 146, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 .content-bg .money-found-content1 .position-center .flex1 .name-title {
   line-height: 1.15rem;
   color: #333333;
 }
-/* line 150, ../sass/screen.scss */
+/* line 147, ../sass/screen.scss */
 .content-bg .money-found-content1 .position-center .flex1 .font-red-big {
   color: #f4878b;
   line-height: 2.1rem;
   font-size: 0.9rem;
   text-align: center;
 }
-/* line 157, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
 .content-bg .money-found-content1 .position-center .flex1 .loss {
   color: #8cc63f;
 }
+
+/*   基金公告    */
+/*   基金公告    */
+/*   基金公告    */
+/* line 166, ../sass/screen.scss */
+.pdf-title {
+  width: 100%;
+  height: 3.65rem;
+  background: #fcfbf9;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/* line 173, ../sass/screen.scss */
+.pdf-title .center-box1 {
+  width: 17.25rem;
+  height: 1.9rem;
+}
+/* line 178, ../sass/screen.scss */
+.pdf-title .center-box1 .left {
+  width: 13.05rem;
+  height: 1.9rem;
+  font-size: 0.5rem;
+}
+/* line 182, ../sass/screen.scss */
+.pdf-title .center-box1 .left .radios-green {
+  display: inline-block;
+  width: 0.9rem;
+  height: 0.9rem;
+  background: #2d3091;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  color: white;
+}
+/* line 192, ../sass/screen.scss */
+.pdf-title .center-box1 .right {
+  width: 3.875rem;
+  height: 1.9rem;
+}
+
+/*   基金公告    */
+/*   基金公告    */
+/*   基金公告    */
